@@ -45,15 +45,15 @@ Github Link: http://github.com/CodeLouisville/
 
   **Things to mention during this time:**
 
-    * Re-iterate relative/absolute file paths.
-    * External, Internal (head), Inline stylesheets.
+  * Re-iterate relative/absolute file paths.
+  * External, Internal (head), Inline stylesheets.
 
 6. Open **css/style.css** in code editor.
 
   **Things to mention during this time:**
 
-    * Normalize and Resets (similarities and differences).
-    * Basic text properties and values.
+  * Normalize and Resets (similarities and differences).
+  * Basic text properties and values.
 
 7. Replace the existing < header > code with the following into **index.html**. Class names have been provided to help.
 
