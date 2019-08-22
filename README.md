@@ -11,7 +11,7 @@ Wireframe/Mockup Link: https://xd.adobe.com/view/f899dba9-9609-4127-459d-deecf93
 
 #### Challenge: Create Responsive 2 Column layout and apply to the < header > and Hero < section > ####
 
-1. Present wireframes and mockup of site.
+#### 1. Present wireframes and mockup of site. ####
 
 **Things to mention during this time:**
 
