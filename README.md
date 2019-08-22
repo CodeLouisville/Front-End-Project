@@ -8,12 +8,12 @@ Wireframe/Mockup Link: https://xd.adobe.com/view/f899dba9-9609-4127-459d-deecf93
 
 ### Week 2 Branch: ###
 
-http:github.com/CodeLouisville/Front-End-Project/
+https://github.com/CodeLouisville/Front-End-Project/tree/Week-2
 
 ### Week 3 Branch: ###
 
-http:github.com/CodeLouisville/Front-End-Project/
+https://github.com/CodeLouisville/Front-End-Project/tree/Week-3
 
 ### Week 4 Branch: ###
 
-http:github.com/CodeLouisville/Front-End-Project/
+https://github.com/CodeLouisville/Front-End-Project/tree/Week-4
