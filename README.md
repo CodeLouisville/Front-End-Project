@@ -169,7 +169,9 @@
 
 ### 3. Add background image to hero section using the supplied image in the **img** folder with the filename *hero-background.jpg*. The background image should not repeat and be centered. Update the background color to #171717. ### 
 
-### Student Challenge - Answers ###
+----
+
+## Student Challenge - Answers ##
 
 ### 1: 2 Column layout with Flexbox ### 
 
