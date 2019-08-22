@@ -1,26 +1,15 @@
 # Code Louisville Front-End Web Development
 
-This is the classwork for FEWD students at Code Louisville.
+## Week 2: ###
 
-## Objective: Create single page website from wireframes/mockup
-
-Wireframe/Mockup Link: https://xd.adobe.com/view/f899dba9-9609-4127-459d-deecf932ccca-8ea8/
-
-
-### Week 2: ###
-
-#### Challenge: Create Responsive 2 Column layout and apply to the < header > and Hero < section > ####
-
-#### 1. Present wireframes and mockup of site. ####
+### 1. Present wireframes and mockup of site. ###
 
 **Things to mention during this time:**
 
   * Brief overview of the Wireframe and Mockup processes
   * Mention Wireframe and Mockup tools (Adobe XD, Sketch, Balsamic, Invision, Adobe Photoshop, etc..)
 
-2. Download zip file, and distribute to class (share link to zip file from CL Github). Make sure students have setup a Code Louisville project folder and extract the files to a new folder.
-
-Github Link: http://github.com/CodeLouisville/
+### 2. Download zip file, and distribute to class (share link to zip file from CL Github). Make sure students have setup a Code Louisville project folder and extract the files to a new folder. ### 
 
 **Things to mention during this time:**
 
@@ -29,7 +18,7 @@ Github Link: http://github.com/CodeLouisville/
   * Relative and Absolute file paths.
   * Filename conventions: lowercase, CamelCase,  
 
-4. Open **index.html** in code editor. Give overview of the different parts of the html page.
+### 3. Open **index.html** in code editor. Give overview of the different parts of the html page. ### 
 
 **Things to mention during this time:**
 
@@ -37,7 +26,7 @@ Github Link: http://github.com/CodeLouisville/
   * Page title, viewport meta, other meta tags.
   * Body, header, main, aside, footer tags.
 
-5. Add CSS file link to page.
+### 4. Add CSS file link to page. ### 
 
   ```html
 <link rel="stylesheet" href="css/style.css" />
@@ -48,14 +37,14 @@ Github Link: http://github.com/CodeLouisville/
   * Re-iterate relative/absolute file paths.
   * External, Internal (head), Inline stylesheets.
 
-6. Open **css/style.css** in code editor.
+### 5. Open **css/style.css** in code editor. ### 
 
   **Things to mention during this time:**
 
   * Normalize and Resets (similarities and differences).
   * Basic text properties and values.
 
-7. Replace the existing < header > code with the following into **index.html**. Class names have been provided to help.
+###  6. Replace the existing < header > code with the following into **index.html**. Class names have been provided to help.
 
 
 ```html
@@ -89,7 +78,7 @@ Github Link: http://github.com/CodeLouisville/
 </header> <!-- Header End -->
   ```
 
-8. Copy and Paste the following code into **index.html** between < main > and </ main >.
+### 7. Copy and Paste the following code into **index.html** between < main > and </ main >. ### 
 
   ```html
 
@@ -121,7 +110,7 @@ Github Link: http://github.com/CodeLouisville/
 
   ```
 
-9. Add these utility classes to the external stylesheet.
+### 8. Add these utility classes to the external stylesheet. ### 
 
    ```css
    /* Utility classes */
@@ -147,7 +136,7 @@ Github Link: http://github.com/CodeLouisville/
    ```
 
 
-10. Add these classes for the **Hero** section to the external stylesheet.
+### 9. Add these classes for the **Hero** section to the external stylesheet. ### 
 
   ```css
 
@@ -168,9 +157,9 @@ Github Link: http://github.com/CodeLouisville/
 
 ## Student Challenge ##
 
-1. Using the given classes (.row, .column) create a 2 column layout with Flex-box.
+### 1. Using the given classes (.row, .column) create a 2 column layout with Flex-box. ### 
 
-2. Create a .btn class with :hover state using the following parameters:
+### 2. Create a .btn class with :hover state using the following parameters: ### 
 
   * Background Color: #32A952.
   * Border: 1 pixel, solid outline, and colored #2FA74D.
@@ -178,11 +167,11 @@ Github Link: http://github.com/CodeLouisville/
   * Border radius of 12 pixels.
   * Hover state color of #288641.
 
-3. Add background image to hero section using the supplied image in the **img** folder with the filename *hero-background.jpg*. The background image should not repeat and be centered. Update the background color to #171717.
+### 3. Add background image to hero section using the supplied image in the **img** folder with the filename *hero-background.jpg*. The background image should not repeat and be centered. Update the background color to #171717. ### 
 
 ### Student Challenge - Answers ###
 
-1: 2 Column layout with Flexbox
+### 1: 2 Column layout with Flexbox ### 
 
 
   ```css
@@ -203,7 +192,7 @@ Github Link: http://github.com/CodeLouisville/
 
   ```
 
-2. Button
+### 2. Button ### 
 
 ```css
 
@@ -233,7 +222,7 @@ Github Link: http://github.com/CodeLouisville/
 
 ```
 
-3. Hero background
+### 3. Hero background ### 
 
 ```css
 
