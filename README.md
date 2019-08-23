@@ -2,6 +2,9 @@
 
 ## Bonus Materials: ###
 
+*Note the files in this branch are the final files as built in classes. Not fully complete please see Master branch for complete solution.*
+
+
 ### 1. Create poster. ###
 
 https://codepen.io/charger71/pen/aezepV
