@@ -85,7 +85,7 @@ body {
 **Things to mention during this time:**
 
   * Font Stack
-  * Various options for hosting webfonts (local, external, services like Adobe, Google, Font-Squirrel).
+  * Various options for hosting webfonts (local,hosted services like Adobe, Google, Font-Squirrel).
 
 
 
