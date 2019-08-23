@@ -17,3 +17,7 @@ https://github.com/CodeLouisville/Front-End-Project/tree/Week-3
 ### Week 4 Branch: ###
 
 https://github.com/CodeLouisville/Front-End-Project/tree/Week-4
+
+### Bonus Materials and Class Solution: ###
+
+https://github.com/CodeLouisville/Front-End-Project/tree/Bonus-Materials
