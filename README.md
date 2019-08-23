@@ -247,6 +247,7 @@ body {
 
 ### 2. Review the mockup. Look at the different ways **features-group** is laid out depending on the viewport(screen) size. Add styles to the the stylesheet to replicate the layouts from the mockup. Do it without changing the HTML *(HINT: :nth-child)*. Use the existing media queries in the stylesheet. ###
 
+### 3. Review the mockup. Add the app store badges. Images are included in the *img* folder.  ###
 
 
 ----
@@ -318,4 +319,3 @@ Desktop Media Query:
 }
 
 ```
-
