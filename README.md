@@ -112,7 +112,7 @@
   * Accessibility, tab order, screen readers
 
 
-### 3. BONUS. Built-in HTML5 Form Validation Styling ###
+### 3. BONUS: Built-in HTML5 Form Validation Styling ###
 
 
 ```CSS
@@ -142,13 +142,85 @@
 
 ```
 
+### 4. Add the following snippet for the footer. ###
+
+
+```HTML
+
+<footer> <!-- Footer Begin -->
+
+  <div class="container ftr-grid">
+
+      <div class="ftr-container">
+
+      <h4>Contact Us</h4>
+
+      <address>
+      1234 Main St.<br />
+      Louisville, KY 40213<br />
+      E: info@codelouisville.org<br />
+      P: 502-555-5555
+      </address>
+
+      </div>
+
+      <div class="ftr-container">
+
+      <h4>Sitemap</h4>
+
+        <ul class="sitemap-links" role="navigation">
+
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact Us</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="ftr-container">
+
+      <h4>Follow Us</h4>
+
+        <ul class="social-links">
+
+          <li><a href="#"><img src="img/ico-linkedin.png" alt="Social icon to linkedin.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-instagram.png" alt="Social icon to instagram.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-twitter.png" alt="Social icon to twitter.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-facebook.png" alt="Social icon to facebook.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-youtube.png" alt="Social icon to youtube.com" role="img" /></a></li>
+
+        </ul>
+
+      </div>
+
+</div>
+
+<div class="copyright">
+
+  <div class="container row">
+
+    <span>&copy; Copyright 2019 Code Louisville</span>
+
+    <span><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></span>
+
+  </div>
+
+</div>
+
+</footer> <!-- Footer End -->
+
+```
+
+
 ## Student Challenge ##
 
-### 1. X. ###
+### 1. Review the mockup and finish building the footer *(HINT: Use CSS Grid)*. ###
 
-### 2. X. ###
+### 2. Make the main navigation menu in the header responsive. ###
 
-### 3. X. ###
+### 3. Accessibility check: make sure your site is accessible. ###
 
 
 ----
@@ -158,11 +230,59 @@
 
 ## Student Challenge - Answers ##
 
-### 1:  ###
+### 1: Footer ###
 
+```CSS
 
+/* Footer */
 
+footer {
+	font-size: 0.8em;
+	background: #AE1347;
+	color: #FFFFFF;
+	padding: 3em 0 0;
+}
 
+footer h4 {
+	text-transform: uppercase;
+}
 
+footer address {
+	font-style: normal;
+}
 
+.ftr-grid {
+	display: grid;
+	grid-template-rows: auto;
+	grid-row-gap: 1em;
+	padding: 0 2em;
+}
 
+```
+Desktop Media Query
+
+```CSS
+
+.ftr-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+}
+
+```
+
+### 2: Navigation ###
+
+```HTML
+
+Check master branch for solutions with CSS/JS
+
+```
+
+### 3: Accessibility ###
+
+```HTML
+
+Please discuss Accessibility
+
+```
