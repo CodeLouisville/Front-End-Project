@@ -259,7 +259,7 @@ footer address {
 }
 
 ```
-Desktop Media Query
+Desktop Media Query:
 
 ```CSS
 
@@ -283,6 +283,6 @@ Check master branch for solutions with CSS/JS
 
 ```HTML
 
-Please discuss Accessibility
+Please discuss accessibility.
 
 ```
