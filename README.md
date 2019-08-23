@@ -319,3 +319,27 @@ Desktop Media Query:
 }
 
 ```
+
+### 3: Badges ###
+
+```HTML
+
+<div class="badges">
+
+  <a href="#"><img src="img/app-store-badge.png" alt="Download on the App Store badge" /></a>
+
+  <a href="#"><img src="img/play-store-badge.png" alt="Get it on Google Play badge" /></a>
+
+</div>
+
+```
+
+```CSS
+
+.badges {
+	margin-top: 3em;
+	padding: 0;
+	text-align: center;
+}
+
+```
