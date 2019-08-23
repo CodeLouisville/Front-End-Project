@@ -1,117 +1,26 @@
 # Code Louisville Front-End Web Development
 
-## Week 3: ###
+## Week 4: ###
 
-### 1. Add The following code to the HTML document. ###
+### 1. Add the code snippets below to build out the Call to Action section. ###
 
 ```html
 
-<!-- Section: Downloads -->
+<!-- Section: Call to Action -->
 
-<section class="downloads">
-
-  <div class="container">
-
-    <header>
-
-      <h2>Learn how to build websites, mobile apps and more</h2>
-
-      <p>One of the best ways to start coding is by building websites. Whether you want to tweak your business’s site, hone your web development skills, or learn to collaborate with developers, we’ll help you get there.</p>
-
-    </header>
-
-  </div>
-
-</section>
-
-```
-
-And this css to the stylesheet:
-
-```CSS
-
-.header-content {
-	margin: 4em auto;
-	max-width: 74ch;
-}
-
-
-/* Download Section */
-
-.downloads {
-	background: #e8e8e8;
-	color: #171717;
-	padding: 3em;
-}
-
-.downloads h2 {
-	text-align: center;
-}
-
-.badges {
-	margin-top: 3em;
-	padding: 0;
-	text-align: center;
-}
-
-```
-
-
-**Things to mention during this time:**
-
-  * Talk about hierarchy with H1, H2, etc..
-  * Font basics, readability and accessibility
-  * Reusable/Modular CSS - BEM, OOCSS, SMACSS, Dry, Subclasses
-
-
-
-### 2. Add the Open Sans font code snippet to index.html above the existing stylesheet. Also update the font stack in the stylesheet. ###
-
-```HTML
-
-<!-- Link to External Google font -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-
-```
-
-```CSS
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-```
-
-**Things to mention during this time:**
-
-  * Font Stack
-  * Various options for hosting webfonts (local,hosted services like Adobe, Google, Font-Squirrel).
-
-
-
-### 3. Add code snippets for Features section.  ###
-
-```HTML
-
-<!-- Section: Features -->
-
-<section class="features">
+<section class="call-to-action">
 
   <div class="container">
 
     <header class="header-content">
 
-      <h3>It’s time to start investing in yourself</h3>
+      <h3>Wanna start coding?</h3>
 
-      <p>Learning to code has never been so much fun before! We have made the learning experience fun and interactive. You will enjoy it like a game while learning and upgrading your skills.</p>
+      <p>Learn the technical skills you need for the job you want. As leaders in online education and learning to code, we’ve taught hundreds in the Louisville community.</p>
 
     </header>
 
-    <div class="features-group">
 
-        - Items go here -
-
-    </div>
 
   </div>
 
@@ -121,133 +30,125 @@ body {
 
 ```CSS
 
-/* Features Section */
+/* CTA Section */
 
-.features {
-	background: #FFFFFF;
+.call-to-action {
+	background: #e8e8e8;
 	color: #171717;
 	padding: 3em;
 }
 
-.features h3 {
+.call-to-action h3 {
 	text-align: center;
 	margin-bottom: 2rem;
 }
 
-.features-group {
-	margin-bottom: 3em;
-}
-
 ```
 
-
-### 4. Add the 3 *.features-item* divs, content and CSS.  ###
+### 2. Add the form snippet below the </ header >. Copy the CSS to the stylesheet. ###
 
 
 ```HTML
 
-<div class="features-item">
+<form action="#" class="cta-form">
 
-  <div class="features-item-img">
+  <label for="email">Email: (required)
+  <input type="email" name="email" id="email" placeholder="joe@example.com" required />
+  </label>
 
-    <img src="img/feature-learn-photo.png" alt="Person working on laptop" />
+  <input id="terms" type="checkbox" name="terms" value="terms" required /> <label for="terms"> I have read the Privacy Policy and agree to the Terms of Service.</label>
 
-  </div>
+  <input type="submit" name="submit" value="Subscribe" class="btn btn-center" />
 
-  <div class="features-item-txt">
-
-    <h4>Learn by Doing</h4>
-
-    <p>From building websites to analyzing data, the choice is yours. Not sure where to start? We’ll point you in the right direction.</p>
-
-  </div>
-
-</div>
-
-```
-
-```HTML
-
-<div class="features-item">
-
-  <div class="features-item-img">
-
-    <img src="img/feature-practice-photo.png" alt="Photo of computer screens with code" />
-
-  </div>
-
-  <div class="features-item-txt">
-
-    <h4>Put your learning into practice</h4>
-
-    <p>No matter your experience level, you’ll be writing real, working code in minutes.</p>
-
-  </div>
-
-</div>
-
-```
-
-```HTML
-
-<div class="features-item">
-
-  <div class="features-item-img">
-
-    <img src="img/feature-dreamjob-photo.png" alt="Photo of people working" />
-
-  </div>
-
-  <div class="features-item-txt">
-
-    <h4>Land your dream job</h4>
-
-    <p>Coding skills have never been more in-demand. Learn everything you need to take your career to the next level.</p>
-
-  </div>
-
-</div>
+</form>
 
 ```
 
 ```CSS
 
-.features-item {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	margin-bottom: 2em;
-}
-
-.features-item-txt,
-.features-item-img {
-	align-self: center;
-}
-
-.features-item-txt {
-	padding: 0;
+.cta-form {
+	padding-bottom: 1.25444em;
 	text-align: left;
-	flex: 1;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.cta-form label {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+.cta-form input[type=email] {
+	font-size: 1.25em;
+	width: 100%;
+	margin: 0 0 2em;
+	min-width: 200px;
+	border: 1px solid #333333;
+	border-radius: 6px;
+	transition: border-color .5s ease-out;
+	padding: 1em;
+}
+
+
+.cta-form input[type=checkbox] {
+	margin: 0 0 2em;
+	border: 1px solid #333333;
+	border-radius: 6px;
+	transition: border-color .5s ease-out;
+}
+
+.cta-form input[type=checkbox]:focus {
+	outline: 3px solid #5cbf2a;
+	border-color: transparent;
+}
+
+
+```
+
+**Things to mention during this time:**
+
+  * Forms, Form styling, labels
+  * CSS transitions, animations
+  * Accessibility, tab order, screen readers
+
+
+### 3. BONUS. Built-in HTML5 Form Validation Styling ###
+
+
+```CSS
+
+.cta-form input[type=email]:optional {
+	border-color: #999999;
+}
+
+.cta-form input[type=email]:required {
+	border-color: #333333;
+}
+
+.cta-form input[type=email]:invalid {
+	border-color: #E72465;
+	color: #E72465;
+}
+
+.cta-form input[type=email]:focus {
+	outline: 3px solid #5cbf2a;
+	border-color: transparent;
+}
+
+.cta-form input[type=email]:valid {
+	border-color: #5cbf2a;
+	color: #5cbf2a;
 }
 
 ```
 
-
-
-  **Things to mention during this time:**
-
-    * Flexbox
-    * Psuedo elements, nth-child
-
-
-
 ## Student Challenge ##
 
-### 1. Go to Google Fonts http://google.com/fonts and switch out the font family.  ###
+### 1. X. ###
 
-### 2. Review the mockup. Look at the different ways **.features-group** is laid out depending on the viewport(screen) size. Add styles to the the stylesheet to replicate the layouts from the mockup. Do it without changing the HTML *(HINT: :nth-child)*. Use the existing media queries in the stylesheet. ###
+### 2. X. ###
 
-### 3. Review the mockup. Add the app store badges. Images are included in the *img* folder.  ###
+### 3. X. ###
 
 
 ----
@@ -259,87 +160,9 @@ body {
 
 ### 1:  ###
 
-```HTML
 
-<!-- Link to External Google font -->
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
 
-```
 
-```CSS
 
-body {
-  font-family: 'Ubuntu', sans-serif;
-}
 
-```
 
-### 2: Features Group Items ###
-
-Tablet Media Query:
-
-```CSS
-
-.features-item {
-  flex-direction: row;
-}
-
-.features-item-txt,
-.features-item-img {
-  align-self: center;
-  flex: 1;
-}
-
-.features-item-txt {
-  padding-left: 2em;
-}
-
-```
-
-Desktop Media Query:
-
-```CSS
-
-.features-item {
-  flex-direction: row;
-}
-
-.features-item:nth-of-type(odd) {
-  flex-direction: row-reverse;
-}
-
-.features-item-txt,
-.features-item-img {
-  align-self: center;
-}
-
-.features-item-txt {
-  padding: 0 2em;
-  flex: 1;
-}
-
-```
-
-### 3: Badges ###
-
-```HTML
-
-<div class="badges">
-
-  <a href="#"><img src="img/app-store-badge.png" alt="Download on the App Store badge" /></a>
-
-  <a href="#"><img src="img/play-store-badge.png" alt="Get it on Google Play badge" /></a>
-
-</div>
-
-```
-
-```CSS
-
-.badges {
-	margin-top: 3em;
-	padding: 0;
-	text-align: center;
-}
-
-```
