@@ -289,6 +289,106 @@ img {
 }
 
 
+/* CTA Section */
+
+.call-to-action {
+	background: #e8e8e8;
+	color: #171717;
+	padding: 3em;
+}
+
+.call-to-action h3 {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.cta-form {
+	padding-bottom: 1.25444em;
+	text-align: left;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.cta-form label {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+.cta-form input[type=email] {
+	font-size: 1.25em;
+	width: 100%;
+	margin: 0 0 2em;
+	min-width: 200px;
+	border: 1px solid #333333;
+	border-radius: 6px;
+	transition: border-color .5s ease-out;
+	padding: 1em;
+}
+
+
+.cta-form input[type=checkbox] {
+	margin: 0 0 2em;
+	border: 1px solid #333333;
+	border-radius: 6px;
+	transition: border-color .5s ease-out;
+}
+
+.cta-form input[type=checkbox]:focus {
+	outline: 3px solid #5cbf2a;
+	border-color: transparent;
+}
+
+.cta-form input[type=email]:optional {
+	border-color: #999999;
+}
+
+.cta-form input[type=email]:required {
+	border-color: #333333;
+}
+
+.cta-form input[type=email]:invalid {
+	border-color: #E72465;
+	color: #E72465;
+}
+
+.cta-form input[type=email]:focus {
+	outline: 3px solid #5cbf2a;
+	border-color: transparent;
+}
+
+.cta-form input[type=email]:valid {
+	border-color: #5cbf2a;
+	color: #5cbf2a;
+}
+
+
+
+/* Footer */
+
+footer {
+	font-size: 0.8em;
+	background: #AE1347;
+	color: #FFFFFF;
+	padding: 3em 0 0;
+}
+
+footer h4 {
+	text-transform: uppercase;
+}
+
+footer address {
+	font-style: normal;
+}
+
+.ftr-grid {
+	display: grid;
+	grid-template-rows: auto;
+	grid-row-gap: 1em;
+	padding: 0 2em;
+}
+
+
+
 
 /* Tablet Media Queries */
 
@@ -342,6 +442,12 @@ img {
 	.features-item-txt {
 		padding: 0 2em;
 		flex: 1;
+	}
+
+	.ftr-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 1em;
 	}
 
 }
