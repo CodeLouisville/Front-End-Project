@@ -141,7 +141,7 @@ body {
 ```
 
 
-### 3. Add the 3 *features-item* divs, content and CSS.  ###
+### 4. Add the 3 *.features-item* divs, content and CSS.  ###
 
 
 ```HTML
