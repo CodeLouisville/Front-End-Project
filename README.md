@@ -6,6 +6,7 @@
 
 
 ### 1. Create poster. ###
+Have students create a poster, using html and css. Get creative, you can do anything from motivational, phrases, movie, band posters.
 
 https://codepen.io/charger71/pen/aezepV
 
