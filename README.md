@@ -6,7 +6,7 @@
 
 
 ### 1. Create poster. ###
-Have students create a poster, using html and css. Get creative, you can do anything from motivational, phrases, movie, band posters.
+Have students create a poster, using html and css. Get creative, you can do a motivational, phrase, movie, or band poster.  
 
 https://codepen.io/charger71/pen/aezepV
 
