@@ -20,7 +20,7 @@ Working Site: https://codelouisville.github.io/Front-End-Project/
   * Keep files organized, make sure folders are created for images, css, and javascript.
   * File/folder hierarchy.
   * Relative and Absolute file paths.
-  * Filename conventions: lowercase, CamelCase,
+  * Filename conventions: lowercase, CamelCase, Mixed, etc..
 
 ### 3. Open **index.html** in code editor. Give overview of the different parts of the html page. ###
 
