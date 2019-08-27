@@ -10,8 +10,8 @@ Working Site: https://codelouisville.github.io/Front-End-Project/
 
 **Things to mention during this time:**
 
-  * Brief overview of the Wireframe and Mockup processes
-  * Mention Wireframe and Mockup tools (Adobe XD, Sketch, Balsamic, Invision, Adobe Photoshop, etc..)
+  * Brief overview of the Wireframe and Mockup processes.
+  * Mention Wireframe and Mockup tools (Adobe XD, Sketch, Balsamic, Invision, Adobe Photoshop, etc..).
 
 ### 2. Download zip file, and distribute to class (https://github.com/CodeLouisville/Front-End-Project/archive/Week-2.zip). Make sure students have setup a Code Louisville project folder and extract the files to a new folder. ###
 
