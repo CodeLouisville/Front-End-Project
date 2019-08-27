@@ -163,6 +163,9 @@ Working Site: https://codelouisville.github.io/Front-End-Project/
 
 ### 1. Using the given classes (.row, .column) create a 2 column layout with Flex-box. ###
 
+  * Please be sure to watch or review the Flexbox Treehouse videos.
+	
+
 ### 2. Create a .btn class with the following parameters: ###
 
   * Background Color: #32A952.
@@ -170,6 +173,7 @@ Working Site: https://codelouisville.github.io/Front-End-Project/
   * Uppercase text and bold.
   * Border radius of 12 pixels.
   * add a :hover state with background color of #288641.
+
 
 ### 3. Add background image to hero section using the supplied image in the **img** folder with the filename *hero-background.jpg*. The background image should not repeat and be centered. Update the background color to #171717. ###
 
