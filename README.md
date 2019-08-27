@@ -5,23 +5,23 @@
 ### 1. Present wireframes and mockup of site. ###
 
 Wireframe/Mockup Link: https://xd.adobe.com/view/f899dba9-9609-4127-459d-deecf932ccca-8ea8/
-Working Site: 
+Working Site:
 
 **Things to mention during this time:**
 
   * Brief overview of the Wireframe and Mockup processes
   * Mention Wireframe and Mockup tools (Adobe XD, Sketch, Balsamic, Invision, Adobe Photoshop, etc..)
 
-### 2. Download zip file, and distribute to class (https://github.com/CodeLouisville/Front-End-Project/archive/Week-2.zip). Make sure students have setup a Code Louisville project folder and extract the files to a new folder. ### 
+### 2. Download zip file, and distribute to class (https://github.com/CodeLouisville/Front-End-Project/archive/Week-2.zip). Make sure students have setup a Code Louisville project folder and extract the files to a new folder. ###
 
 **Things to mention during this time:**
 
   * Keep files organized, make sure folders are created for images, css, and javascript.
   * File/folder hierarchy.
   * Relative and Absolute file paths.
-  * Filename conventions: lowercase, CamelCase,  
+  * Filename conventions: lowercase, CamelCase,
 
-### 3. Open **index.html** in code editor. Give overview of the different parts of the html page. ### 
+### 3. Open **index.html** in code editor. Give overview of the different parts of the html page. ###
 
 **Things to mention during this time:**
 
@@ -29,7 +29,7 @@ Working Site:
   * Page title, viewport meta, other meta tags.
   * Body, header, main, aside, footer tags.
 
-### 4. Add CSS file link to page. ### 
+### 4. Add CSS file link to page. ###
 
   ```html
 <link rel="stylesheet" href="css/style.css" />
@@ -40,7 +40,7 @@ Working Site:
   * Re-iterate relative/absolute file paths.
   * External, Internal (head), Inline stylesheets.
 
-### 5. Open **css/style.css** in code editor. ### 
+### 5. Open **css/style.css** in code editor. ###
 
   **Things to mention during this time:**
 
@@ -81,7 +81,7 @@ Working Site:
 </header> <!-- Header End -->
   ```
 
-### 7. Copy and Paste the following code into **index.html** between < main > and </ main >. ### 
+### 7. Copy and Paste the following code into **index.html** between < main > and </ main >. ###
 
   ```html
 
@@ -113,7 +113,7 @@ Working Site:
 
   ```
 
-### 8. Add these utility classes to the external stylesheet. ### 
+### 8. Add these utility classes to the external stylesheet. ###
 
    ```css
    /* Utility classes */
@@ -139,7 +139,7 @@ Working Site:
    ```
 
 
-### 9. Add these classes for the **Hero** section to the external stylesheet. ### 
+### 9. Add these classes for the **Hero** section to the external stylesheet. ###
 
   ```css
 
@@ -160,17 +160,17 @@ Working Site:
 
 ## Student Challenge ##
 
-### 1. Using the given classes (.row, .column) create a 2 column layout with Flex-box. ### 
+### 1. Using the given classes (.row, .column) create a 2 column layout with Flex-box. ###
 
-### 2. Create a .btn class with :hover state using the following parameters: ### 
+### 2. Create a .btn class with the following parameters: ###
 
   * Background Color: #32A952.
   * Border: 1 pixel, solid outline, and colored #2FA74D.
   * Uppercase text and bold.
   * Border radius of 12 pixels.
-  * Hover state color of #288641.
+  * add a :hover state with background color of #288641.
 
-### 3. Add background image to hero section using the supplied image in the **img** folder with the filename *hero-background.jpg*. The background image should not repeat and be centered. Update the background color to #171717. ### 
+### 3. Add background image to hero section using the supplied image in the **img** folder with the filename *hero-background.jpg*. The background image should not repeat and be centered. Update the background color to #171717. ###
 
 
 
@@ -182,7 +182,7 @@ Working Site:
 
 ## Student Challenge - Answers ##
 
-### 1: 2 Column layout with Flexbox ### 
+### 1: 2 Column layout with Flexbox ###
 
 
   ```css
@@ -203,7 +203,7 @@ Working Site:
 
   ```
 
-### 2. Button ### 
+### 2. Button ###
 
 ```css
 
@@ -233,7 +233,7 @@ Working Site:
 
 ```
 
-### 3. Hero background ### 
+### 3. Hero background ###
 
 ```css
 
