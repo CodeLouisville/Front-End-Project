@@ -12,13 +12,13 @@ Working Site: https://codelouisville.github.io/Front-End-Project/
 
 https://github.com/CodeLouisville/Front-End-Project/tree/Week-2
 
-### Week 3 Branch: ###
-
-https://github.com/CodeLouisville/Front-End-Project/tree/Week-3
-
 ### Week 4 Branch: ###
 
 https://github.com/CodeLouisville/Front-End-Project/tree/Week-4
+
+### Week 6 Branch: ###
+
+https://github.com/CodeLouisville/Front-End-Project/tree/Week-6
 
 ### Bonus Materials and Class Solution: ###
 
